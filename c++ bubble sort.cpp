@@ -2,11 +2,10 @@
 using namespace std;
 int main(){
     int n;
-    cout<<"Enter the number of elements:";
+    cout<<"Enter the number of elements: ";
     cin>>n;
     int a[n];
-    //int* a = new int[n];In C++, the size of an array must be known at compile time. To solve this issue, you can use a dynamic array instead
-    cout<<"Enter the array elements:"<<endl;
+    cout<<"Enter the array elements: "<<endl;
     for(int i=0;i<n;i++)
     cin>>a[i];
     for(int i=0;i<n-1;i++)
